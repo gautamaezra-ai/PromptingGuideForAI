@@ -1,0 +1,113 @@
+[
+    {
+        "category": "Content Creation & Copywriting",
+        "prompts": [
+            {
+                "title": "Comprehensive SEO Blog Post Generator",
+                "description": "A highly detailed prompt designed to generate a fully structured, SEO-optimized blog post that includes meta descriptions, engaging headings, and proper keyword distribution without sounding robotic.",
+                "prompt_template": "Act as an expert SEO copywriter and content strategist with over 10 years of experience. Your task is to write a comprehensive, engaging, and highly informative blog post about [TOPIC]. First, provide a compelling SEO title and a meta description (max 160 characters) that encourages high click-through rates. Then, write the main body of the article. Use a conversational but authoritative tone. Structure the article using proper H2 and H3 tags. The content must naturally integrate the following primary keyword: [PRIMARY_KEYWORD] and secondary keywords: [SECONDARY_KEYWORDS]. Include an engaging introduction that hooks the reader, a detailed main body with bullet points and actionable advice, and a strong conclusion with a specific Call to Action (CTA) directing the reader to [CTA_TARGET]. Maintain a readability level suitable for an 8th-grade reading level. Avoid jargon unless clearly explained. Total word count should be around [WORD_COUNT] words.",
+                "variables": [
+                    {
+                        "name": "[TOPIC]",
+                        "description": "The main subject of the blog post (e.g., 'The Benefits of Intermittent Fasting')."
+                    },
+                    {
+                        "name": "[PRIMARY_KEYWORD]",
+                        "description": "The main SEO keyword to target."
+                    },
+                    {
+                        "name": "[SECONDARY_KEYWORDS]",
+                        "description": "A comma-separated list of supporting keywords."
+                    },
+                    {
+                        "name": "[CTA_TARGET]",
+                        "description": "What you want the reader to do at the end (e.g., 'subscribe to our newsletter')."
+                    },
+                    {
+                        "name": "[WORD_COUNT]",
+                        "description": "Desired length of the article (e.g., '1500')."
+                    }
+                ],
+                "expected_output_description": "A well-structured document starting with SEO metadata, followed by a properly formatted HTML-style heading structure, engaging paragraphs, and a clear call to action.",
+                "pro_tips": "If the output is too generic, refine the [TOPIC] variable to be more niche, for example, instead of 'Digital Marketing', use 'Digital Marketing strategies for local coffee shops in 2024'."
+            },
+            {
+                "title": "High-Converting Email Newsletter Sequence",
+                "description": "Generates a 3-part email sequence designed to nurture leads and convert them into customers using the PAS (Problem, Agitate, Solution) framework.",
+                "prompt_template": "You are a master email marketer and direct-response copywriter. I need a 3-part email sequence to sell my product, [PRODUCT_NAME], which helps [TARGET_AUDIENCE] achieve [DESIRED_OUTCOME]. Use the PAS (Problem, Agitate, Solution) framework. \n\nEmail 1: 'The Welcome & Problem Identification'. Hook the reader, introduce the core problem they are facing, and make them feel understood. End with a teaser for the next email.\nEmail 2: 'The Agitation & Story'. Dive deeper into the pain points of not solving this problem. Share a brief, relatable story or hypothetical scenario of someone struggling with this. Introduce the idea that there is a better way.\nEmail 3: 'The Solution & Pitch'. Introduce [PRODUCT_NAME] as the ultimate solution. Highlight 3 major benefits (not just features). Include a strong, urgent Call to Action to [PURCHASE_LINK]. \nEnsure the tone is [TONE], empathetic, and persuasive. Write compelling subject lines for all three emails.",
+                "variables": [
+                    {
+                        "name": "[PRODUCT_NAME]",
+                        "description": "The name of your product or service."
+                    },
+                    {
+                        "name": "[TARGET_AUDIENCE]",
+                        "description": "Who the email is aimed at (e.g., 'freelance graphic designers')."
+                    },
+                    {
+                        "name": "[DESIRED_OUTCOME]",
+                        "description": "The main benefit the audience wants (e.g., 'getting clients on autopilot')."
+                    },
+                    {
+                        "name": "[PURCHASE_LINK]",
+                        "description": "The destination URL for the CTA."
+                    },
+                    {
+                        "name": "[TONE]",
+                        "description": "The voice of the email (e.g., 'friendly and professional', 'witty and irreverent')."
+                    }
+                ],
+                "expected_output_description": "Three distinct emails, each with a subject line and body copy, transitioning logically from problem awareness to product pitch.",
+                "pro_tips": "Ensure your [TARGET_AUDIENCE] description is as specific as possible to make the emotional resonance of the PAS framework hit harder."
+            }
+        ]
+    },
+    {
+        "category": "Software Development & Coding",
+        "prompts": [
+            {
+                "title": "Senior Code Review & Refactoring Assistant",
+                "description": "Acts as a strict but helpful senior developer reviewing code for performance, security, and readability.",
+                "prompt_template": "Act as a Senior Software Engineer conducting a thorough code review. I will provide you with a snippet of [LANGUAGE] code. Your goal is to analyze the code based on the following criteria: \n1. Readability and Clean Code principles (e.g., SOLID, DRY, naming conventions). \n2. Performance optimization (time and space complexity). \n3. Security vulnerabilities (e.g., injection flaws, improper error handling). \n4. Maintainability and scalability. \n\nFor every issue you find, provide: \n- The line or section of code that is problematic. \n- A detailed explanation of WHY it is an issue. \n- A revised code snippet demonstrating the best practice solution. \n\nFinally, provide a complete, refactored version of the entire code block incorporating all your suggestions, well-commented to explain the changes. \n\nHere is the code to review:\n```\n[CODE_SNIPPET]\n```",
+                "variables": [
+                    {
+                        "name": "[LANGUAGE]",
+                        "description": "The programming language of the snippet (e.g., 'Python', 'JavaScript', 'Rust')."
+                    },
+                    {
+                        "name": "[CODE_SNIPPET]",
+                        "description": "The actual code you want reviewed."
+                    }
+                ],
+                "expected_output_description": "A structured review with bullet points detailing specific issues, educational explanations for each issue, and a final, clean, and refactored code block.",
+                "pro_tips": "To get the best results, include a brief description of what the code is *supposed* to do before pasting the code snippet, so the AI understands the business logic."
+            }
+        ]
+    },
+    {
+        "category": "Business & Strategy",
+        "prompts": [
+            {
+                "title": "Comprehensive Business Plan & Market Analysis",
+                "description": "Generates a highly structured, multi-section business plan outline complete with market analysis, competitive landscape, and go-to-market strategy.",
+                "prompt_template": "Act as a seasoned business strategist and startup consultant. I am launching a new business called [BUSINESS_NAME]. We offer [PRODUCT_SERVICE_DESCRIPTION] to [TARGET_MARKET]. \n\nPlease generate a comprehensive business plan summary. The output must include the following sections:\n1. Executive Summary: A compelling overview of the business, its mission, and its vision.\n2. Market Analysis: An evaluation of the current market size, trends, and growth potential for this industry.\n3. Target Audience Persona: A detailed profile of our ideal customer (demographics, psychographics, pain points).\n4. Competitive Advantage: A SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) comparing us to general competitors in this space.\n5. Go-to-Market Strategy: A step-by-step marketing and sales plan for the first 90 days post-launch.\n6. Revenue Model: Suggested pricing strategies and potential revenue streams.\n\nKeep the tone professional, analytical, and persuasive, suitable for presenting to potential investors.",
+                "variables": [
+                    {
+                        "name": "[BUSINESS_NAME]",
+                        "description": "The name of your startup or company."
+                    },
+                    {
+                        "name": "[PRODUCT_SERVICE_DESCRIPTION]",
+                        "description": "A clear, concise explanation of what you are selling."
+                    },
+                    {
+                        "name": "[TARGET_MARKET]",
+                        "description": "The broad group of people or businesses you are selling to."
+                    }
+                ],
+                "expected_output_description": "A polished, investor-ready business plan summary divided into clearly marked sections with strategic insights tailored to the provided business concept.",
+                "pro_tips": "Provide unique selling propositions (USPs) in the [PRODUCT_SERVICE_DESCRIPTION] variable to allow the AI to generate a much more accurate SWOT analysis."
+            }
+        ]
+    }
+]

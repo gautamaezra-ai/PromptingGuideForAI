@@ -1,0 +1,44 @@
+[
+    {
+        "id": "tech_001",
+        "technique_name": "Few-Shot Prompting",
+        "difficulty_level": "Intermediate",
+        "comprehensive_description": "Few-Shot Prompting involves providing the AI with a few examples (shots) of the input and the desired output within the prompt itself, before asking it to perform the task on a new input. It is one of the most powerful techniques for teaching the AI a specific format, style, or logic paradigm that is difficult to explain purely through instructions.",
+        "when_to_use": "Use this technique when you need the output strictly formatted (e.g., JSON, specific CSV structures), when you want to enforce a very specific brand voice or tone, or when the task involves complex pattern recognition (like classifying sentiment based on nuanced rules).",
+        "step_by_step_implementation": [
+            "Step 1: Define the task clearly at the beginning of the prompt.",
+            "Step 2: Provide Example 1: Show a sample input, followed by the exact output you expect.",
+            "Step 3: Provide Example 2 (and optionally 3): Show another distinct input and its corresponding output. Vary the examples to cover edge cases.",
+            "Step 4: Present the actual input you want the AI to process.",
+            "Step 5: Leave the output section blank for the AI to complete."
+        ],
+        "examples": [
+            {
+                "context": "Converting user feedback into structured feature requests.",
+                "prompt": "Task: Extract the core feature request and classify its urgency.\n\nInput: 'The app keeps crashing when I try to upload a profile picture. Fix this ASAP!'\nOutput: { \"feature\": \"Profile Picture Upload Stability\", \"urgency\": \"High\" }\n\nInput: 'It would be nice if the dashboard had a dark mode option for night reading.'\nOutput: { \"feature\": \"Dark Mode UI\", \"urgency\": \"Low\" }\n\nInput: 'I can't export my reports to PDF, it only gives me CSV. I need PDF for my boss by tomorrow.'\nOutput:",
+                "why_it_works": "Instead of writing a long paragraph explaining how to format a JSON object and how to judge urgency, the examples instantly communicate the precise schema (keys: 'feature', 'urgency') and the classification logic. The AI will naturally complete the pattern with `{ \"feature\": \"PDF Export Functionality\", \"urgency\": \"High\" }`."
+            }
+        ],
+        "common_pitfalls_and_solutions": "Pitfall: Providing examples that are too similar to each other. Solution: Ensure your examples cover a diverse range of scenarios (e.g., one positive, one negative, one neutral) so the AI doesn't overfit to a specific type of input."
+    },
+    {
+        "id": "tech_002",
+        "technique_name": "Chain-of-Thought (CoT) Prompting",
+        "difficulty_level": "Advanced",
+        "comprehensive_description": "Chain-of-Thought (CoT) prompting forces the AI to articulate its reasoning step-by-step before arriving at a final answer. Large Language Models operate like powerful calculators of probability, and when asked to solve complex logic or math problems in a single bound, they often fail. By forcing them to generate the intermediate steps (the 'chain of thought'), they effectively give themselves more computational 'space' and time to arrive at the correct conclusion.",
+        "when_to_use": "Essential for complex math problems, riddles, logic puzzles, strategic planning, or any task where multiple variables must be considered sequentially to reach a valid conclusion.",
+        "step_by_step_implementation": [
+            "Step 1: State the complex problem you need solved.",
+            "Step 2: Add the magic phrase: 'Let's think step by step.' or 'Break down your reasoning step-by-step before giving the final answer.'",
+            "Step 3: (Optional but powerful) Combine CoT with Few-Shot by providing an example of a problem solved step-by-step."
+        ],
+        "examples": [
+            {
+                "context": "Solving a logic problem involving multiple variables.",
+                "prompt": "Problem: John has 5 apples. He buys 2 more bags of apples, each containing 3 apples. He then gives half of all his apples to his friend, but his friend gives 1 back. How many apples does John have now? \n\nBefore giving me the final answer, let's think step-by-step and write out the calculations.",
+                "why_it_works": "If asked directly, an AI might occasionally miscalculate or jump to a conclusion. By thinking step-by-step, it generates: 'Initial: 5. Buys 2 bags of 3 = 6. Total = 11. Gives half (wait, 11/2 is 5.5, let's assume whole apples or point out the impossibility, or calculate 5.5). Let's say he has 11. Gives half...'. The AI catches logical inconsistencies in its own generated text, self-correcting as it writes."
+            }
+        ],
+        "common_pitfalls_and_solutions": "Pitfall: Using CoT for simple tasks (like 'What is the capital of France?'). This wastes tokens and time. Solution: Reserve CoT strictly for multi-step reasoning, mathematical calculations, and complex decision-making processes."
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "tut_001",
+        "module_name": "Introduction to LLMs & Your First Prompt",
+        "target_audience": "Absolute Beginners",
+        "estimated_time_minutes": 15,
+        "overview": "Welcome to the world of Artificial Intelligence! In this tutorial, you will learn exactly what a Large Language Model (LLM) is, how it 'thinks', and how to write your very first successful prompt. By the end of this module, you will understand how to talk to an AI to get useful answers.",
+        "steps": [
+            {
+                "step_number": 1,
+                "title": "Understanding the 'Brain' of the AI",
+                "instruction_text": "An AI like ChatGPT, Gemini, or Claude is essentially an advanced text-prediction engine. It has read billions of pages of text from the internet. When you ask it a question, it doesn't 'think' like a human; instead, it uses complex mathematics to predict which word should logically come next based on everything it has learned. It's like a highly advanced version of the autocorrect on your phone.",
+                "actionable_task": "Keep in mind: The AI only knows what you tell it in the prompt. If you are vague, it will guess. If you are specific, it will follow instructions."
+            },
+            {
+                "step_number": 2,
+                "title": "The Problem with 'Lazy' Prompting",
+                "instruction_text": "Most beginners treat AI like a Google search bar. They type things like 'recipe for pasta' or 'how to lose weight'. While the AI will answer, the answer will be generic, boring, and not tailored to you.",
+                "actionable_task": "Open your AI tool. Type a lazy prompt: 'Write an email to my boss asking for a day off.' Read the result. Notice how generic and robotic it sounds."
+            },
+            {
+                "step_number": 3,
+                "title": "Adding Context (The Secret Sauce)",
+                "instruction_text": "To get amazing results, you must tell the AI the *context*. Who are you? What is the specific situation? What is the desired outcome?",
+                "actionable_task": "Now, try adding context. Type: 'I work as a junior graphic designer. My boss's name is David. I have worked overtime for the last two weekends to finish the branding project. Write an email asking for this Friday off to recover and rest. Keep the tone professional but friendly, and keep it under 100 words.'"
+            },
+            {
+                "step_number": 4,
+                "title": "Review and Refine",
+                "instruction_text": "Compare the two emails. The second one is significantly better because the AI had boundaries and details to work with. Prompting is an iterative process. If the result isn't perfect, you don't have to start over. Just ask the AI to change it.",
+                "actionable_task": "Reply to the AI with: 'That is good, but make it slightly more formal and emphasize that all my current tasks are completed.'"
+            }
+        ],
+        "summary": "You've learned that AI is a prediction engine that thrives on detail. You've also seen firsthand how adding specific context (who, what, why) and constraints (word count, tone) instantly transforms mediocre output into highly usable text. You've just become better at prompting than 90% of casual users!",
+        "knowledge_check": "What happens when you give an AI a short, vague prompt without any context?"
+    },
+    {
+        "id": "tut_002",
+        "module_name": "The 'Act As' Hack: Unlocking AI Personas",
+        "target_audience": "Beginners to Intermediate",
+        "estimated_time_minutes": 20,
+        "overview": "One of the most powerful and easiest techniques in Prompt Engineering is 'Role Prompting', commonly known as the 'Act As' hack. In this tutorial, you will learn how to command the AI to take on a specific professional persona, instantly upgrading the quality, vocabulary, and expertise of its answers.",
+        "steps": [
+            {
+                "step_number": 1,
+                "title": "What is Role Prompting?",
+                "instruction_text": "By default, an AI model acts as a helpful, polite, and neutral assistant. However, you can command it to adopt a specific identity\u2014like a 'Senior Software Engineer', a 'Fitness Coach', or an 'Expert Copywriter'. When you do this, the AI filters its vast knowledge base and selects words, sentence structures, and frameworks that match that specific profession.",
+                "actionable_task": "Read the difference between 'Tell me how to exercise' (Neutral Assistant) vs. 'Act as a strict, Olympic-level strength coach. Tell me how to exercise' (Persona)."
+            },
+            {
+                "step_number": 2,
+                "title": "Constructing the Persona",
+                "instruction_text": "A good persona prompt has three parts: The Role, The Experience Level, and The Task. Example: 'Act as a seasoned Michelin-star chef (Role & Experience). I need you to help me upgrade my simple spaghetti bolognese recipe (Task).'",
+                "actionable_task": "Think of a problem you currently have. Choose an expert who could solve it. Write down their title (e.g., Financial Advisor, Interior Designer)."
+            },
+            {
+                "step_number": 3,
+                "title": "Executing the Persona Prompt",
+                "instruction_text": "Let's put it into practice. We are going to ask the AI for advice on saving money, but we will use two different personas to see the contrast.",
+                "actionable_task": "Prompt 1: 'Act as a kindergarten teacher. Explain to me the importance of saving money.' \nPrompt 2: 'Act as an aggressive Wall Street investment banker. Explain to me the importance of saving and investing money.' \nRun both prompts and observe the massive shift in tone, vocabulary, and approach."
+            },
+            {
+                "step_number": 4,
+                "title": "Stacking Personas with Constraints",
+                "instruction_text": "To master this technique, combine the persona with specific constraints and formats.",
+                "actionable_task": "Try this advanced prompt: 'Act as an expert travel agent specializing in budget travel in Southeast Asia. Create a 3-day itinerary for Bali for a solo traveler. Provide the output in a table format with columns for Time, Activity, and Estimated Cost in USD. Tone should be exciting and practical.'"
+            }
+        ],
+        "summary": "You have unlocked the ability to consult with virtually any expert in the world. By explicitly setting the AI's persona, you dictate the lens through which it views your problem, resulting in highly specialized, accurate, and contextually appropriate responses.",
+        "knowledge_check": "Why does adding 'Act as a [Profession]' improve the AI's response compared to asking a question directly?"
+    }
+]
