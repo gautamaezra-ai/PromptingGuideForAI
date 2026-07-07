@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Images (1)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(1).webp"
+  },
+  {
+    "id": 2,
+    "title": "Images (10)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(10).webp"
+  },
+  {
+    "id": 3,
+    "title": "Images (11)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(11).webp"
+  },
+  {
+    "id": 4,
+    "title": "Images (12)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(12).webp"
+  },
+  {
+    "id": 5,
+    "title": "Images (13)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(13).webp"
+  },
+  {
+    "id": 6,
+    "title": "Images (14)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(14).webp"
+  },
+  {
+    "id": 7,
+    "title": "Images (15)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(15).webp"
+  },
+  {
+    "id": 8,
+    "title": "Images (16)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(16).webp"
+  },
+  {
+    "id": 9,
+    "title": "Images (17)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(17).webp"
+  },
+  {
+    "id": 10,
+    "title": "Images (18)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(18).webp"
+  },
+  {
+    "id": 11,
+    "title": "Images (19)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(19).webp"
+  },
+  {
+    "id": 12,
+    "title": "Images (2)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(2).webp"
+  },
+  {
+    "id": 13,
+    "title": "Images (3)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(3).webp"
+  },
+  {
+    "id": 14,
+    "title": "Images (4)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(4).webp"
+  },
+  {
+    "id": 15,
+    "title": "Images (5)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(5).webp"
+  },
+  {
+    "id": 16,
+    "title": "Images (6)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(6).webp"
+  },
+  {
+    "id": 17,
+    "title": "Images (7)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(7).webp"
+  },
+  {
+    "id": 18,
+    "title": "Images (8)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(8).webp"
+  },
+  {
+    "id": 19,
+    "title": "Images (9)",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images_(9).webp"
+  },
+  {
+    "id": 20,
+    "title": "Images",
+    "category": "General",
+    "url": "https://raw.githubusercontent.com/gautamaezra-ai/PromptingGuideForAI/main/images/images.webp"
+  }
+]
