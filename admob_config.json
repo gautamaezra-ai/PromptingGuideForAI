@@ -1,8 +1,9 @@
 {
-  "appOpenAdUnitId": "ca-app-pub-3940256099942544/9257395921",
-  "bannerAdUnitId": "ca-app-pub-3940256099942544/6300978111",
-  "interstitialAdUnitId": "ca-app-pub-3940256099942544/1033173712",
-  "rewardedAdUnitId": "ca-app-pub-3940256099942544/5224354917",
-  "nativeAdUnitId": "ca-app-pub-3940256099942544/2247696110",
+  "admob_app_id": "ca-app-pub-4754459062262858~9745957645"
+  "appOpenAdUnitId": "ca-app-pub-4754459062262858/3132096184",
+  "bannerAdUnitId": "ca-app-pub-4754459062262858/3702227819",
+  "interstitialAdUnitId": "ca-app-pub-4754459062262858/4445177856",
+  "rewardedAdUnitId": "ca-app-pub-4754459062262858/3283305273",
+  "nativeAdUnitId": "ca-app-pub-4754459062262858/5909468617",
   "isAdsEnabled": true
 }
